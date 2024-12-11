@@ -17,7 +17,7 @@ async function getLatestReviews(showId) {
     try {
         const reviews = [];
 
-        // Initial request to get the first page of reviews
+        // Requête initiale pour récupérer la première page de contenu
         let paginationKey = ''; // Initialize paginationKey
         
         do {
